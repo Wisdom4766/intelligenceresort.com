@@ -1,0 +1,1 @@
+var buttoName = alert("THANKS FOR CONTACTING!!")

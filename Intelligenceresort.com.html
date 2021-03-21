@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligence Resort</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body{
+            background: darkslategrey;
+            scroll-behavior: smooth;
+            }
+
+        .web{
+            font-family: Helvetica;
+            
+            padding-left: 5px;
+            
+        
+        }
+        .web{
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: 5px 10px grey;
+        }
+
+        .navwrapper{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 30px;
+            text-transform: uppercase;
+            color: white;
+            background:lightslategray;
+            font-size: larger;
+            font-weight: 700;
+            border-bottom: 1px solid;
+            box-shadow: 5px 10px grey;
+            
+        }
+
+        
+        
+        
+        
+        
+        
+        .about{
+            margin-left: 600px;
+            font-size: 30px;
+            padding-top: 40px;
+            font-weight: 700;
+            color:darkslategray;
+        }
+
+        #aboutme{
+        
+            color: whitesmoke;
+            padding-right: 500px;
+    
+             /*align-items: end;
+            align-items: center;*/
+            
+        }
+
+        #aboutme div{
+            height: 650px;
+            padding: 25px;
+            padding-bottom: 30px;
+            
+        }
+
+        .p1{
+          
+          
+        }
+
+        /*.p2{
+        flex: 1;
+        box-shadow: 5px 10px blue;
+        }
+
+        .p3{
+         flex: 1;
+         box-shadow: 5px 10px blue;
+        }*/
+
+        .button{
+            margin: 10px auto;
+        }
+        .service{
+            padding-top: 250px;
+            text-align: center;
+            font-size: 40px;
+            color:whitesmoke;
+        }
+        
+        #myservices{
+            border-radius: 10%;
+            background-color: dimgray;
+            color: darkseagreen ;
+            margin: 2.21%;
+
+        }
+        p{
+           color: black;
+        }
+
+        .img{
+            width: 100%;
+            height: 850px;
+            /*background-color: grey purple;
+            position: relative;
+            animation-name: example;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;*/
+        }
+        /*.img2{
+            width: 50%;
+            height: 500px;
+        }*/
+        
+        .resort{
+            width: 100px;
+            height: 100px;
+            background: red;
+            transition: width 2s;
+            transition-timing-function: linear;
+        }
+       marquee{
+           text-transform: uppercase;
+           color: darkslategrey;
+           font-weight: 900;
+           background-color: gray;
+            position: relative;
+            animation-name: inherit;
+            animation-duration: 2s;
+            /*animation-iteration-count: infinite;*/
+ 
+       }
+       .nav2:hover{
+           color: dodgerblue;
+       }
+
+       #contact{
+         border: 1px solid dimgray;  
+         color: white;
+         padding-left: 5px;
+         width: 300px;
+         margin-left: 5px;
+         margin-top: 40px;
+       }
+
+       .footer{
+          color: hotpink;
+       }
+
+       .ourcontact{
+           color: ghostwhite;
+       }
+
+       .img-service{
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           padding-left: 30px;
+           padding-top: 60px;
+           padding-bottom: 60px;
+       }
+
+
+     .content{
+         padding: 30px;
+         margin: 2.21%;
+         color: whitesmoke;
+         font-size: 45px;
+     }
+
+    .sub:hover{
+        color: darkolivegreen;
+    }
+
+.sub{
+        font-size: 70px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: hotpink;
+        position: ;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px; 
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-weight: 600;
+        
+    } 
+
+    .blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: whitesmoke;    }
+    30%{    color: hotpink; }
+    50%{    color: darkolivegreen; }
+    60%{    color: dimgray;  }
+    69%{    color: gold;  }
+    79%{    color: lightseagreen;  }
+    85%{    color: white;  }
+    95%{    color: purple;  }
+    100%{   color: rgb(0, 9, 128);    }
+}
+
+.marquee2{
+    color: indigo;
+    font-family: sans-serif;
+}
+
+.About{
+    background-image: url('studio.jpg');
+    border-radius: 70%;
+    height: 700px;
+    
+}
+
+      @media only screen and (max-width: 600px) {
+          body{
+             background-color: lightblue;
+          }
+      }  
+    </style>
+</head>
+<body>
+    <div class="web">
+    <div class="navwrapper">
+    <div class="nav1">Home</div>
+    <div class="nav2"><a href="#aboutme" style= "text-decoration: none;color: white;">About</a></div>
+    <div class="nav3"><a href="#myservices" style="text-decoration: none;color: white;"> Services</a></div>
+    <div class="nav4"><a href="#contact" style="text-decoration: none;color: white;"> Contact</a></div>
+    <!--<div class="nav6"><a href="#signup" style="text-decoration: none; color: white;"><sub>Sign Up</sub></a> </div>-->
+    <button><a href="IntelligenceResortsignup.html" style="text-decoration: none; color: green; font-size: medium;font-weight: 700;">Sign Up</a></button>
+    </div>
+
+    <div>
+            <marquee behavior="alternate" direction="right">Welcome To Intelligence Resort!!! </marquee>
+            
+            <marquee  direction="right">Our Major Aim Is To Help Promote A World Of Effective Marketing System</marquee>                      
+      
+
+     <div class="itemwrapper">
+         <div class="imgwrapper">
+
+            <div class="imgtextwrapper">
+                <div class="logowrapper">
+                        <img class="img" src="lap.jpg">
+                </div>
+
+                <div class="sub">
+                    <div class="blinking">Our Major Aim Is To Help Promote A World Of 
+                    Effective Marketing System.</div>
+                </div>
+            </div>
+         </div>
+     </div>   
+    
+
+    
+       </div> <!--<img src="C:\Users\USER\Desktop\Web development\Classwork\swapnil-potdar-FZL9lwgA2T8-unsplash.jpg"/>-->
+    
+      <div class="About">
+       <h2 class="about">ABOUT</h2>
+    <div id="aboutme">
+        
+          <!--<img class="img2" src="sign.jpg">-->
+             <div class="p1">
+                 <div style=" margin-left: 500px;font-size: 25px;">
+                    Intelligence Resort is a marketing site which helps Promote
+                    your product and services by helping you advertise it to the world through
+                    the right channel. Our aim is to produce a world of Effective marketing system
+                    and affiliate method. <strong style="color: green;">We believe in making online business easier.</strong>
+                    
+                </div>
+
+             
+             
+             <div class="button"><button><a href="#contact" style="margin-top:10px; text-decoration: none;text-transform: uppercase;font-weight: 900;color: hotpink;"><strong class="blinking">Click To Get In Touch Today</strong></a></button></div>
+            </div>
+    </div>
+      
+    <div class="img-service">
+        <div class="imgg">
+            <img src="stan.jpg" style="width: 100%;">
+            
+        </div>
+        
+    <div id="myservices">
+        <h2 class="service">SERVICES</h2>
+             <p class="content">We're glad to offer this diverse range of
+                 services. We bring your dreams together and turn it Into achievement.
+   
+            </p>
+        </div>
+    </div>
+
+    <div id="contact" >
+    <h1 class="ourcontact"><span class="blinking">For More Info</span></h1>
+                       <h2><span class="blinking">Contact Us @</span></h2>
+    
+        <p class="footer"><marquee class="marquee2" behaviour="alternate" direction="right" >www.wisdomechetagwara@gmail.com</marquee></p>
+        <p class="footer"><marquee class="marquee2" behaviour="alternate" direction="right" >or CALL 08139379036</marquee></p>
+        <address><marquee class="marquee2" behaviour="alternate" direction="right" >1,Unity Close Abaranje, ikotun Lagos.</marquee></address>
+        <p style="color: whitesmoke;">Copyright&copy; 2021 Intelligence Resort.</p>
+        
+    </div>
+
+</body>
+</html>
