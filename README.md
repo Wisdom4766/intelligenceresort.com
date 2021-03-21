@@ -1,0 +1,1 @@
+# intelligenceresort.com
